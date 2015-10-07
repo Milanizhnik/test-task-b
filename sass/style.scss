@@ -217,6 +217,8 @@ h3{
 .pict-1{
 	padding: 90px 0;
 	background-image: url('../images/details.jpg');
+	background-size: cover;
+	background-position: center center;
 }
 #details{
 	color: white;
@@ -283,6 +285,9 @@ h3{
 }
 .port_item_descr.active{
 	@include opacity(1);
+}
+.portfolio_item img{
+	width: 100%;
 }
 a.line-1{
 	display: block;
@@ -497,9 +502,6 @@ footer{
 		width: 90%;
 		font-size: 36px;
 		text-align: center;
-	}
-	.pict-1{
-		background-size: cover;
 	}
 	#portfolio img{
 		width: 100%;
